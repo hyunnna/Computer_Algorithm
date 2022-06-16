@@ -1,18 +1,3 @@
----
-layout: post
-read_time: true
-show_date: true
-title:	점근적 표기법 (Asymtotic natation)
-date:   2022-03-12 10:12:32 -0600
-description : 
-# img: posts/202203/data.jpg
-tags: [asymtitic natation, algorithm, time complexity]
-author: HyunHwa
-github: hyunnna
-mathjax: yes # leave empty or erase to prevent the mathjax javascript from loading
-
-# toc: yes # leave empty or erase for no TOC
----
 <br />
 
 
@@ -27,7 +12,7 @@ mathjax: yes # leave empty or erase to prevent the mathjax javascript from loadi
 
 <br />
 
-### <span style="color: #87CEEB">실행시간의 성장률 ( rate of growth )<br />
+* ### <span style="color: #87CEEB"> 실행시간의 성장률 ( rate of growth )<br />
 
 #### : 프로그램을 쉽게 유지 할 수 있도록 불필요한 부분을 버리고 가장 중요한 부분만 추려내서 함수를 간소화 할 필요성이 있다.  
 다음은 입력값의 크기에 따라 알고리즘의 함수가 얼마나 커지는지에 대한 그래프이다.  
@@ -72,7 +57,7 @@ mathjax: yes # leave empty or erase to prevent the mathjax javascript from loadi
 ex) 위 그래프를 봤을 때 처음에는 g(n)의 그래프가 더 아래에 있지만 시간이 갈수록 f(n)의 그래프가 아래에 있기 때문에 cf(n)의 함수가 더 빠르다.
  <br />
 
-### <span style="color: #87CEEB">O(F(n)) : 점근적 상한 / asympotic upper bound </span>  
+* ### <span style="color: #87CEEB">O(F(n)) : 점근적 상한 / asympotic upper bound </span>  
  <br />
 
 <center>
@@ -81,11 +66,11 @@ ex) 위 그래프를 봤을 때 처음에는 g(n)의 그래프가 더 아래에 
 
 </center>
 
-### [O-표기법] ( = Big-O)  
+* ### [O-표기법] ( = Big-O)  
   
  그래프를 봤을 때 g(n) ∈ O(f(n))일 때, f(n)이 g(n)의 상한이 된다. 즉 g(n)이 f(n)보다 빠르거나 같다는 뜻이다.
 
-### **O(x(n)) = {f(n) : 모든 n ≤ f(n)≤ cx(n)인 양의 상수 c and n<sub>0</sub>이 존재 한다}**  
+#### **O(x(n)) = {f(n) : 모든 n ≤ f(n)≤ cx(n)인 양의 상수 c and n<sub>0</sub>이 존재 한다}**  
 <br />
 
 <center>
@@ -96,7 +81,7 @@ ex) 위 그래프를 봤을 때 처음에는 g(n)의 그래프가 더 아래에 
 위 그림과 같이 O(n<sup>2</sup>)에 속하는 집합의 함수들  = g(n) 은 n<sup>2</sup>(=f(n))보다 빠르거나 같다.  
 <br />
 
-### <span style="color: #87CEEB">Ω(f(n)) : 점근적 하한, asympotic lower bound </span>  
+* ### <span style="color: #87CEEB">Ω(f(n)) : 점근적 하한, asympotic lower bound </span>  
  <br />
 
 <center>
@@ -106,11 +91,11 @@ ex) 위 그래프를 봤을 때 처음에는 g(n)의 그래프가 더 아래에 
 
 그래프를 봤을 때 g(n)dl cf(n)보다 느리므로 g(n) ∈ Ω(f(n))일 때, f(n)이 g(n)의 하한이 된다. 즉, g(n)이 f(n)보다 느리거나 같다.    
 
-### **f(n)에 대해 g(n) ≥ c x f(n)을  만족하는 음이아닌 정수 n과 상수 c가 존재한다.**   
+#### **f(n)에 대해 g(n) ≥ c x f(n)을  만족하는 음이아닌 정수 n과 상수 c가 존재한다.**   
 <br />
 
 
-### <span style="color: #87CEEB">Θ(f(n)) : 차수, asympotic tight bound</span>  
+* ### <span style="color: #87CEEB">Θ(f(n)) : 차수, asympotic tight bound</span>  
  <br />
 
 <center>
@@ -121,11 +106,11 @@ ex) 위 그래프를 봤을 때 처음에는 g(n)의 그래프가 더 아래에 
 
 Θ(n) = O(f(n)) ∩ Ω(f(n))일 때, Θ(n)은 가능한 모든 g(n)의 집합이다. g(n) ∈ Θ(f(n))일 때, "g(n)은 f(n)의 차수(order)"라고 한다. 그래프를 보면 g(n)이 cf(n)보다 느리고, df(n)보다 빠르다. 따라서 g(n) ∈ Θ(f(n))이다.  
 
-### **주어진 복잡도함수 f(n)에 대해 c x f(n) ≤ g(n) ≤d x f(n)을 만족 만족하는 음이아닌 정수 n과 상수 c가 존재한다.**  
+#### **주어진 복잡도함수 f(n)에 대해 c x f(n) ≤ g(n) ≤d x f(n)을 만족 만족하는 음이아닌 정수 n과 상수 c가 존재한다.**  
 
  <br />
 
- ### <span style="color: #87CEEB">**시간복잡도 함수**<br />  
+ * ### <span style="color: #87CEEB">**시간복잡도 함수**<br />  
  
 <br />
  : 문제를 해결하는데 걸리는 시간과 입력의 함수 관계  
@@ -133,8 +118,7 @@ ex) 위 그래프를 봤을 때 처음에는 g(n)의 그래프가 더 아래에 
  * ### O(n)  
     #### 빅오 표기법 : 계수와 낮은 차수의 항을 제외시키는 방법  
 
-     ex) 크기 n 의 모든 입력에 대한 알고리즘에 필요한 시간이 최대 n<sup>6</sup> + n<sup>3</sup> + 4 
- 의 식을 가진다면 이 알고리즘의 점근적 시간 복잡도 O(n) = 6 이라고 할 수 있다.  
+     ex) 크기 n 의 모든 입력에 대한 알고리즘에 필요한 시간이 최대 n<sup>6</sup> + n<sup>3</sup> + 4의 식을 가진다면 이 알고리즘의 점근적 시간 복잡도 O(n) = 6 이라고 할 수 있다.  
 
 <br />
 
