@@ -1,18 +1,3 @@
----
-layout: post
-read_time: true
-show_date: true
-title:	Information Protection System
-date:   2022-03-11 18:12:32 -0600
-description : information protection system class
-tags: [information protection system, Senior]
-author: HyunHwa
-github: hyunnna
-mathjax: yes # leave empty or erase to prevent the mathjax javascript from loading
-
-# toc: yes # leave empty or erase for no TOC
----
-
 # x86 Assembly
 
 ### [ 어셈블리어 언어 ]
