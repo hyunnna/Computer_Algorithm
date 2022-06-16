@@ -1,1 +1,4 @@
-# Computer_Algorithm
+
+![header](https://capsule-render.vercel.app/api?type=cylinder&color=auto&height=100&section=header&text=[Alogrithm]Computer%20Algorithm&fontSize=40&fontColor=ffffff)
+
+
