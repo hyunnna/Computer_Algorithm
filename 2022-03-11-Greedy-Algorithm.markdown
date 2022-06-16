@@ -1,18 +1,3 @@
----
-layout: post
-read_time: true
-show_date: true
-title:	Greedy Algorithm
-date:   2022-03-11 18:12:32 -0600
-description : Greedy Algorithm 
-tags: [algorithm]
-author: HyunHwa
-github: hyunnna
-mathjax: yes # leave empty or erase to prevent the mathjax javascript from loading
-
-# toc: yes # leave empty or erase for no TOC
----
-
 # <span style="color:MediumSeaGreen">[Algorithm] **Greedy**  </span>  
 
 <center>
