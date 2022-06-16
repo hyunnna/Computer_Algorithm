@@ -1,19 +1,3 @@
----
-layout: post
-read_time: true
-show_date: true
-title:  Data Format
-date:   2022-03-09 19:12:32 -0600
-description : The second week study of cloud computing.
-img: posts/202203/data.jpg
-tags: [cloud computing, data]
-author: HyunHwa
-github: hyunnna
-mathjax: yes # leave empty or erase to prevent the mathjax javascript from loading
-
-# toc: yes # leave empty or erase for no TOC
----
-
 ## Data Format
 
 + #### 정형 데이터 (Structured Data)
@@ -30,17 +14,20 @@ mathjax: yes # leave empty or erase to prevent the mathjax javascript from loadi
 * ##### 계층적, 그래프 기반의 데이터( XML, HTML 문서 / JSON, BSON 형태의 데이터)
 
 ------------
+<br />
 
-XML (eXtensivle Markup Language)
-구조화된 문서를 네트워크 환경에서 전송 및 활용 가능하도록 설계된 표준 마크업 언어
-ISO SGML의 서브셋(subset)
-장점 
-호환성 : 국제 표준 규약
-독립성 
-HW, OS , 프로그래밍 언어에 독립
-서로 다른 네트워크 환경에서 유용
-구조화
-활용성
-확장성
-분석 성능 
-단점 : 오버헤드
+* XML (eXtensivle Markup Language) <br />
+- 구조화된 문서를 네트워크 환경에서 전송 및 활용 가능하도록 설계된 표준 마크업 언어
+- ISO SGML의 서브셋(subset) <br />
+- 
+* 장점 
+- 호환성 : 국제 표준 규약
+- 독립성 
+- HW, OS , 프로그래밍 언어에 독립
+- 서로 다른 네트워크 환경에서 유용
+- 구조화 ,활용성, 확장성 , 분석 성능  <br />
+
+
+* 단점 : 오버헤드
+* 
+<br />
